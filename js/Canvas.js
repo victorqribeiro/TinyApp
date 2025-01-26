@@ -19,7 +19,8 @@ export default function Canvas(state) {
     let oldX = 0
     let oldY = 0
 
-    function oncontextmenu() {
+    function oncontextmenu(e) {
+        e.preventDefault()
         c.clearRect(0, 0, 300, 150)
     }
 1
