@@ -23,7 +23,7 @@ export default function Canvas(state) {
         e.preventDefault()
         c.clearRect(0, 0, 300, 150)
     }
-1
+
     function onmousemove(e) {
         if (!isMouseDown) return
         const x = e.offsetX
